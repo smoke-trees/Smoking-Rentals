@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-
-                final Intent mainIntent = new Intent(MainActivity.this, StartActivity.class);
+                final Intent mainIntent = new Intent(MainActivity.this, ChooseActivity.class);
                 startActivity(mainIntent);
+                overridePendingTransition(R.anim.start, R.anim.fadeout);
             }
-        }, 2000);
+        }, 1500);
     }
 }

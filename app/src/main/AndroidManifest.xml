@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ChooseActivity"></activity>
         <activity
             android:name=".StartActivity"
-            android:theme="@style/AppThemeStart">
-        </activity>
+            android:theme="@style/AppThemeStart"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
