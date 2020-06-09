@@ -1,0 +1,63 @@
+.bg-dark{
+    background: transparent  !important;
+    transition: 700ms ease;
+    
+}
+body{
+    background-color:white ;
+}
+
+.bg-dark.scrolled{
+    background: white !important;
+    border-bottom: 3px black solid;
+   
+}
+.text-white{
+    color: white;
+    transition: 700ms ease;
+}
+.text-white.scrolled{
+    color:black !important;
+}
+
+.topicimage{
+float: left;
+margin-left: 100px;
+}
+.topictext{
+float:right;
+margin-right: 320px;
+
+}
+
+.topicimager{
+float:right;
+margin-right: 90px;
+
+}
+
+.topictextr{
+float:left;
+margin-left: 270px;
+}
+
+.topicr{
+margin-right: 150px;
+margin-top: 400px;
+}
+
+
+.nav-link:hover
+{
+    border-bottom: 2px orange solid;
+}
+.topic{
+    margin-left: 150px;
+}
+.subhead{
+   color:orange;
+}
+.subheadtext{
+  font-weight:600;
+  font-family:B612;
+}
