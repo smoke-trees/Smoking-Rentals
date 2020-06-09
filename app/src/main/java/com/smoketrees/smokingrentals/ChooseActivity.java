@@ -32,7 +32,6 @@ public class ChooseActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             public void run() {
                 heading.setAnimation(animation2);
-
                 heading.setVisibility(View.VISIBLE);
             }
         }, 200);
