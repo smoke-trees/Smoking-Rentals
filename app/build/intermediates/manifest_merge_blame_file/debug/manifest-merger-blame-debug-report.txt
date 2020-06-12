@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smoketrees.smokingrentals"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:5:5-66
+11-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:6:5-78
+12-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-database:16.0.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\defb968d718b802b86a441939f6c4ef8\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+14-->[com.google.firebase:firebase-database:16.0.4] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\defb968d718b802b86a441939f6c4ef8\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+15
+16    <uses-feature
+16-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+17        android:glEsVersion="0x00020000"
+17-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+18        android:required="true" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+19
+20    <application
+20-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:9:5-39:19
+21        android:allowBackup="true"
+21-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:10:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.0.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\668f92656ea417a5dbfea6d82592adcd\core-1.0.1\AndroidManifest.xml:22:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/icon"
+24-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:11:9-36
+25        android:label="@string/app_name"
+25-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:12:9-41
+26        android:roundIcon="@mipmap/icon_round"
+26-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:13:9-47
+27        android:supportsRtl="true"
+27-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:14:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:15:9-40
+30        <meta-data
+30-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:17:9-18:46
+31            android:name="com.google.android.geo.API_KEY"
+31-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:17:20-65
+32            android:value="@string/map_key" />
+32-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:18:13-44
+33
+34        <activity android:name="com.smoketrees.smokingrentals.VehicleActivity" >
+34-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:20:9-26:20
+34-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:20:19-50
+35            <intent-filter>
+35-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:21:13-25:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:22:17-69
+36-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:22:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:24:17-77
+38-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:24:27-74
+39            </intent-filter>
+40        </activity>
+41        <activity android:name="com.smoketrees.smokingrentals.PhoneAuthActivity" />
+41-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:27:9-64
+41-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:27:19-52
+42        <activity android:name="com.smoketrees.smokingrentals.ChooseActivity" />
+42-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:28:9-52
+42-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:28:19-49
+43        <activity
+43-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:29:9-31:52
+44            android:name="com.smoketrees.smokingrentals.StartActivity"
+44-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:30:13-42
+45            android:theme="@style/AppThemeStart" />
+45-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:31:13-49
+46        <activity android:name="com.smoketrees.smokingrentals.MainActivity" >
+46-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:32:9-34:20
+46-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:32:19-47
+47        </activity>
+48
+49        <meta-data
+49-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:36:9-38:57
+50            android:name="preloaded_fonts"
+50-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:37:13-43
+51            android:resource="@array/preloaded_fonts" />
+51-->C:\Users\HP\AndroidStudioProjects\SmokingRentals\app\src\main\AndroidManifest.xml:38:13-54
+52
+53        <activity
+53-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+54            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+54-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+55            android:excludeFromRecents="true"
+55-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+56            android:exported="true"
+56-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+57            android:launchMode="singleTask"
+57-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+58            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+58-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+59            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+59-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+60
+61        <service
+61-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+62            android:name="com.google.firebase.components.ComponentDiscoveryService"
+62-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+63            android:exported="false" >
+63-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+64            <meta-data
+64-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+65                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+65-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\e9f593c3901ff3564f0083a34d20f1de\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+67        </service>
+68
+69        <activity
+69-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
+70            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+70-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:24:13-93
+71            android:excludeFromRecents="true"
+71-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:25:13-46
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:26:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:27:13-72
+74        <!--
+75            Service handling Google Sign-In user revocation. For apps that do not integrate with
+76            Google Sign-In, this service will never be started.
+77        -->
+78        <service
+78-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:33:9-36:110
+79            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+79-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:34:13-89
+80            android:exported="true"
+80-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:35:13-36
+81            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+81-->[com.google.android.gms:play-services-auth:18.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b6748b841eb61dee401db73773313d84\play-services-auth-18.0.0\AndroidManifest.xml:36:13-107
+82        <uses-library
+82-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+83            android:name="org.apache.http.legacy"
+83-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+84            android:required="false" />
+84-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+90
+91        <provider
+91-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4e8847b4d4fbb670ad85c7da98e2bd50\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+92            android:name="com.google.firebase.provider.FirebaseInitProvider"
+92-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4e8847b4d4fbb670ad85c7da98e2bd50\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+93            android:authorities="com.smoketrees.smokingrentals.firebaseinitprovider"
+93-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4e8847b4d4fbb670ad85c7da98e2bd50\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+94            android:exported="false"
+94-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4e8847b4d4fbb670ad85c7da98e2bd50\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+95            android:initOrder="100" />
+95-->[com.google.firebase:firebase-common:16.0.3] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\4e8847b4d4fbb670ad85c7da98e2bd50\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b36888e1d63472d398799c7aa73b3b32\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b36888e1d63472d398799c7aa73b3b32\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\b36888e1d63472d398799c7aa73b3b32\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+100    </application>
+101
+102</manifest>
